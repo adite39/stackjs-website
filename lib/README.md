@@ -5,24 +5,24 @@ CHANGELOG
 
 Version 0.4
 -------------
-   - add: didHashChanged for url hash change events
-- add: default object setInterval and setTimeout methods implementation with object context
+- add: didHashChanged for url hash change events
+- add: default object setInterval() and setTimeout() methods implementation with object context
 - add: removeEvent method on view objects
 - add: link html elements to view members through outlet attribute
-- add: getView method to get single html element
+- add: getView() method to get single html element
 - fix: getViews now gets all matched elements
 - fix: Viewport element setter on load event (window.attachEvent browsers)	
 
 Version 0.3
 -------------
-- add: local classses support (use LocalClass instead of Class)
+- add: local classes support (use LocalClass instead of Class)
 - fix: handle undefined parameters in addViews method
 - fix: handle undefined body element
 
 Version 0.2
 -------------
 - add: nodejs integration!
-- change: View: addEvent method signature. use addEvent(string selector, string eventType, string eventName, boolean preventDefault);
+- change: View: addEvent() method signature. use addEvent(string selector, string eventType, string eventName, boolean preventDefault);
 - fix: print stack trace only if there is no 'Catch' for the exception
 
 Version 0.1.2
@@ -37,5 +37,5 @@ Version 0.1.2
 Version 0.1.1
 -------------
 - fix: add event for multiple elements
-- fix: loosing element context while adding multiple view with addViews method
+- fix: loosing element context while adding multiple views with addView() method
 - fix: viewport didBecomeActive event
